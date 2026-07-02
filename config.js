@@ -139,8 +139,8 @@ window.SITE_CONFIG = {
   // 13. Team catalog
   team: [
     {
-      image: "./assets/about.jpg",
-      name: "Allen John",
+      image: "./assets/aboutciv.png",
+      name: "Mausam Agrawal",
       role: "Principal Designer & Founder"
     }
   ],
