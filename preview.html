@@ -860,7 +860,7 @@
       z-index: 2;
     }
     .map-link-card::after {
-      content: 'Kumaraswamy Layout, Bangalore';
+      content: 'Gaurav Path, Bilaspur';
       position: absolute;
       bottom: 12px;
       left: 12px;
@@ -1816,6 +1816,11 @@
       if (contactAddress) {
         contactAddress.textContent = config.contact.address;
         contactAddress.href = config.contact.googleMap;
+      }
+
+      const mapLinkCard = document.getElementById("map-link-card-el");
+      if (mapLinkCard) {
+        mapLinkCard.href = config.contact.googleMap;
       }
       
       const contactSubmitBtn = document.querySelector("#contact form button[type='submit']");
